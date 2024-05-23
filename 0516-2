@@ -1,0 +1,9 @@
+def is_odd(x):
+    """
+    檢查輸入的參數 x 是否為奇數
+    """
+    return x % 2 != 0
+
+# 測試函式
+num = int(input("請輸入一個整數："))
+print(is_odd(num))
