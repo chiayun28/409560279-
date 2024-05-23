@@ -1,0 +1,14 @@
+def power(x, n):
+    """
+    計算整數 x 的 n 次方
+    """
+    result = 1
+    for _ in range(n):
+        result *= x
+    return result
+
+# 呼叫函式，計算 x 的 n 次方
+x = int(input("請輸入整數 x："))
+n = int(input("請輸入次方 n："))
+
+print(f"{x} 的 {n} 次方為：{power(x, n)}")
